@@ -23,3 +23,8 @@ print ("The result was {r}" .format(r=result))
 
 # Float formating follows "{value:width.precision f}"
 print ("The result was {r:1.4f}".format(r=result))
+name ="simon"
+age=3
+print (f'Hello, hist name is {name}')
+print (f'{name} is {age} years old')
+print (f'Python {"rules!"}')
