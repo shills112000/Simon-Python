@@ -21,3 +21,13 @@ my_list=d['key1'] # my_list = key1
 letter=my_list[2] # letter has last element
 letter.upper() # uppercase letter
 
+d['key1'][2].upper() # same as above, but all in one step
+
+d={'k1':100,'k2':200}
+d['k3']=300
+d['k1']=500
+
+d={'k1':100,'k2':200}
+d.keys()  # get all keys in dictionary
+d.values() # get all values in dictionary
+d.items()  # get all the pairs together
