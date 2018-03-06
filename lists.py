@@ -23,3 +23,4 @@ num_list =[4,1,8,3]
 new_list.sort()  # sprts new_list , it changes the list
 num_list.sort() # sorts numbers
 num_list.reverse() # reverses a list
+simon
