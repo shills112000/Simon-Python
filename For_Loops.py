@@ -57,3 +57,15 @@ my_list=[(1,2,3),(5,6,7),(7,8,9)]
 
 for a,b,c in my_list:
     print (b)
+    
+d = {'k1':1,'k2':2,'k3':3}
+
+for item in d:   # notice only iterate trhough keys
+    print (item)
+    
+for item in d.items():   # notice iterate  keys and values
+    print (item)
+    
+for key,value in d.items():  # just show values
+    print (value)
+    
