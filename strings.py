@@ -28,3 +28,8 @@ age=3
 print (f'Hello, hist name is {name}')
 print (f'{name} is {age} years old')
 print (f'Python {"rules!"}')
+
+# take input from user
+result = input ('enter a number: ')
+
+print (f'Hi number is {result}')
