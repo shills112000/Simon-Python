@@ -7,6 +7,7 @@ Created on Wed Mar  7 15:26:13 2018
 
 # Iterable  means you can iterate over the object ... perform a action for everything in a object
 
+
 my_list = [1,2,3]
 for entry in my_list:
     print (entry)
